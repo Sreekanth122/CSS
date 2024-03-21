@@ -9,41 +9,51 @@
     <style>
         div {
             width: 800px;
-            height: 400px;
+            height: 450px;
             margin-left: 300px;
           border: solid 1px;
             margin-top: 100px;
         }
         h2
         {
-            margin-left: 150px;
+            margin-left: 120px;
         }
-        h3
-        {
-            margin-left: 40px; 
-        }
+       
+    
     </style>
+    <form action="action_page.php">
     <div>
-        <img src="/photos/istockphoto-1022892932-612x612.jpg" alt="softprofilepic", width="400px", height="400px" style="float:right">
+        <img src="/photos/istockphoto-1022892932-612x612.jpg" alt="softprofilepic", width="400px", height="450px" style="float:right">
        
         <h2>Welcome back</h2>
         <br>
-        <br>
-        <h3>Email</h3>
-        <br>
-            <label for="uname" style="margin-left: 40px;"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname">
-        <br>
+            <label for="uname" style="margin-left: 60px;"><b>Email</b></label>
+            <br>
+            <br>
+            <input type="text" placeholder="Enter mail id" name="uname" style="margin-left: 60px;width: 250px;height: 25px;">
         <br>
         <br>
-            <label for="psw" style="margin-left: 40px;"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw">
+            <label for="psw" style="margin-left: 60px;"><b>Password</b></label>
+            <br>
+            <br>
+            <input type="password" placeholder="Enter Password" name="psw"style="margin-left: 60px;width: 250px;height: 25px;">
+            <br>
+            <br>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"style= "margin-left: 60px;"> Remember me
+              </label>
+              <label for="fgt pass"style= "margin-left: 30px;color:blue; text "> Forgot password?</label>
                 <br>
                 <br>
                 <br>
-            <button type="submit"style="margin-left: 150px;">Submit</button>
+                
+            <button type="submit"style="margin-left: 60px;background-color : black;color : white; width: 250px;height: 30px;" >Submit</button>
+            <br>
+            <br>
+         <button type="submit"style="margin-left: 60px;background-color : black;color : white;width: 250px;height: 30px;">Sign in with Google</button>
+
        
     </div>
-    
+</form>
 </body>
 </html>
