@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image hovering</title>
+</head>
+<style>
+    .img1{
+        width: 350px;
+        height: 400px;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    .img1:hover
+        {
+            
+border: 8px solid green;
+
+        }
+    .img2 {
+        width: 350px;
+        height: 400px;
+        margin-left: 80px;
+       margin-top: 50px;
+    }
+    .img2:hover
+        {
+            
+border: 8px solid green;
+
+        }
+    .img3 {
+        width: 350px;
+        height: 400px;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+    .img3:hover
+        {
+            
+border: 8px solid green;
+
+        }
+    .img4 {
+        width: 350px;
+        height: 400px;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+    .img4:hover
+        {
+            
+border: 8px solid green;
+
+        }
+    .img5 {
+        width: 350px;
+        height: 400px;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+    .img5:hover
+        {
+            
+border: 8px solid green;
+
+        }
+    .img6 {
+        width: 350px;
+        height: 400px;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+    .img6:hover
+        {
+            
+border: 8px solid green;
+
+        }
+</style>
+<body>
+<h2 style="text-align: center;">Image Hovering</h2>
+    <img src="/photos/New folder/360_F_535473874_OWCa2ohzXXNZgqnlzF9QETsnbrSO9pFS.jpg" class="img1" >
+    <img src="/photos/New folder/download (5).jpg" class="img2">
+    <img src="/photos/New folder/mountain-countryside-landscape-at-sunset-dramatic-sky-over-a-distant-valley-green-fields-and-trees-on-hill-beautiful-natural-landscapes-of-the-carpathians-generative-ai-variation-8-photo.jpeg" alt="3" class="img3">
+    <img src="/photos/New folder/tree-736885_1280.jpg" alt="4" class="img4" >
+    <img src="/photos/New folder/flowers-276014_1280.jpg" alt="5" class="img5">
+    <img src="/photos/New folder/poppies-174276_1280.jpg" alt="6" class="img6">
+</body>
+</html>
