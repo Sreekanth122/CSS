@@ -11,11 +11,13 @@
         height: 400px;
         margin-top: 50px;
         margin-left: 80px;
+        opacity: .5;
     }
     .img1:hover
         {
             
 border: 8px solid green;
+opacity: 1;
 
         }
     .img2 {
@@ -23,11 +25,13 @@ border: 8px solid green;
         height: 400px;
         margin-left: 80px;
        margin-top: 50px;
+       opacity: .5;
     }
     .img2:hover
         {
             
 border: 8px solid green;
+opacity: 1;
 
         }
     .img3 {
@@ -35,11 +39,13 @@ border: 8px solid green;
         height: 400px;
         margin-left: 80px;
         margin-top: 50px;
+        opacity: .5;
     }
     .img3:hover
         {
             
 border: 8px solid green;
+opacity: 1;
 
         }
     .img4 {
@@ -47,11 +53,13 @@ border: 8px solid green;
         height: 400px;
         margin-left: 80px;
         margin-top: 50px;
+        opacity: .5;
     }
     .img4:hover
         {
             
 border: 8px solid green;
+opacity: 1;
 
         }
     .img5 {
@@ -59,11 +67,13 @@ border: 8px solid green;
         height: 400px;
         margin-left: 80px;
         margin-top: 50px;
+        opacity: .5;
     }
     .img5:hover
         {
             
 border: 8px solid green;
+opacity: 1;
 
         }
     .img6 {
@@ -71,11 +81,13 @@ border: 8px solid green;
         height: 400px;
         margin-left: 80px;
         margin-top: 50px;
+        opacity: .5;
     }
     .img6:hover
         {
             
 border: 8px solid green;
+opacity: 1;
 
         }
 </style>
